@@ -24,12 +24,10 @@
     <title>LAMP TEST PAGE</title>
 </head>
 <body>
-    <?php foreach( $result as $value ) { ?>
-
-        <h1><?php echo "$value[name]"; ?></h1>
-        
-	<?php } ?>
+    <?php
+    foreach( $result as $value ) {
+        echo "<h1>$value[name]</h1>";
+    } 
+    ?>
 </body>
 </html>
-
-
