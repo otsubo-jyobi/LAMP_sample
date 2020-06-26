@@ -103,10 +103,8 @@ try {
 							<input type="text" class="form-control" id="age" name="age">
 						</div>
 					</div>
-					<div class="form-group row">
-						<div class="col-sm-10">
-							<button type="submit" class="btn btn-primary btn-block">Insert</button>
-						</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary btn-block">Insert</button>
 					</div>
 				</form>
 			</div>
