@@ -8,7 +8,7 @@ try {
 
     $id = $_GET['id'];
 
-    $sql = "delete form user where id=:id";
+    $sql = "delete from user where id=:id";
     $stmt = $dbh->prepare($sql);
     $prams = array(':id'=> $id);
     $stmt->execute($prams);
